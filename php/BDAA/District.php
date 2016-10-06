@@ -12,7 +12,7 @@ use BDAA\Upazila as Upazila;
  * This class represents a District - the second child on the whole administrative system
  * 
  * @author Md Abdullah Al Maruf <maruf.sylhet@gmail.com>
- * @version 2.0
+ * @version 2.4
  
  * @see Base.php
  * @see Upazila.php

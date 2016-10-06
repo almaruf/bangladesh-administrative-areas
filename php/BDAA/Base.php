@@ -8,7 +8,7 @@ use BDAA\Exception as Exception;
  * Abstract class to be extended by other classes which takes care of the basic functions of a class
  * 
  * @author Md Abdullah Al Maruf <maruf.sylhet@gmail.com>
- * @version 2.0
+ * @version 2.4
  */
 
  abstract class Base {

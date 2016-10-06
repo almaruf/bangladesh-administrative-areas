@@ -5,7 +5,7 @@ namespace BDAA;
  * The package exception class
  * 
  * @author Md Abdullah Al Maruf <maruf.sylhet@gmail.com>
- * @version 2.0 
+ * @version 2.4 
  */
  
 class Exception extends \Exception

@@ -9,7 +9,7 @@ use \BDAA\Base as Base;
  * This class represents a Thana - the third child on the whole administrative system
  * 
  * @author Md Abdullah Al Maruf <maruf.sylhet@gmail.com>
- * @version 2.0 
+ * @version 2.4 
  * @todo Thanas for all the districts
  */
  

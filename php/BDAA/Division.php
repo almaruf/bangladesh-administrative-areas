@@ -12,7 +12,7 @@ use BDAA\District as District;
  * This class represents a Division - the first child on the whole administrative system
  * 
  * @author Md Abdullah Al Maruf <maruf.sylhet@gmail.com>
- * @version 2.0
+ * @version 2.4
  
  * @see Abstract.php
  * @see District.php
