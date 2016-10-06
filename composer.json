@@ -1,0 +1,30 @@
+{
+    "name": "almaruf/bdaa",
+    "description": "Information on Bangladesh's administrative areas are available in this repository. Information can be optionally accessed using the provided PHP library. This consists data of all the Divisions, including the Districts and Upazila names for those Districts.",
+    "version": "2.0",
+    "license": "MIT",
+    "keywords": ["bangladesh", "administrative", "areas", "district", "districts", "divisions", "division", "thanas", "thana", "unions", "union"],
+    "homepage": "https://github.com/almaruf/bangladesh-administrative-areas/",
+    "authors": [
+        {
+            "name": "Md Abdullah Al Maruf",
+            "email": "maruf.sylhet@gmail.com",
+            "homepage": "http://www.almaruf.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/almaruf/bangladesh-administrative-areas/issues"
+    },
+    "dist": {
+        "url": "https://github.com/almaruf/bangladesh-administrative-areas/archive/v1.4.zip",
+        "type": "zip"
+    },
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "BDAA": "php/"
+        }
+    }
+}

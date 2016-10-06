@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="generator" content="PHPDoctor 2.0.5 (http://peej.github.com/phpdoctor/)">
+<meta name="when" content="Thu, 25 Aug 2016 14:54:29 +0000">
+
+<link rel="stylesheet" type="text/css" href="../stylesheet.css">
+<link rel="start" href="../namespaces.html">
+
+<title>Areas (PHPDoctor)</title>
+
+</head>
+<body id="definition">
+
+<header><h1>BDAA - a PHP library for utilising administrative areas data of Bangladesh</h1><span>Class</span>
+
+<h2>Bangladesh_Administrative_Areas\Areas</h2>
+
+</header><p class="signature">public  class <strong>Areas</strong></p>
+
+<div class="comment"><p>A class for handling the administrative areas information for Bangladesh.
+This includes the Divisions, Districts, Upazilas and in some cases Thanas</p></div>
+
+<table>
+<tr><th>See Also</th>
+<td>Division.php</td>
+</tr><tr><th>Author</th>
+<td>Md Abdullah Al Maruf <maruf.sylhet@gmail.com></td>
+</tr><tr><th>Version</th>
+<td>2.0</td>
+</tr><tr><th>Todo</th>
+<td>add unions of every Upazilas in next increment</td>
+<td>add Thanas for every District in future</td>
+</tr></table>
+<h3>Fields</h3>
+<table>
+<tr>
+<td class="type"> mixed</td>
+<td class="description"><p class="name"><a href="#data">$data</a></p></td>
+</tr>
+</table>
+
+<h3>Methods</h3>
+<table>
+<tr>
+<td class="type"> void</td>
+<td class="description"><p class="name"><a href="#__construct()">__construct</a>()</p><p class="description">Preparing the \BDAA\Feed of division objects</p></td>
+</tr>
+<tr>
+<td class="type"> \BDAA\Feed</td>
+<td class="description"><p class="name"><a href="#getAllDivisions()">getAllDivisions</a>()</p><p class="description">Get all division objects in an \BDAA\Feed</p></td>
+</tr>
+<tr>
+<td class="type"> void</td>
+<td class="description"><p class="name"><a href="#getDistrict()">getDistrict</a>(mixed name)</p></td>
+</tr>
+<tr>
+<td class="type"> Array</td>
+<td class="description"><p class="name"><a href="#getDistrictNames()">getDistrictNames</a>(string division, mixed divisionName)</p><p class="description">Get all Division names either for all the Divisions or a specific Division</p></td>
+</tr>
+<tr>
+<td class="type"> \BDAA\Feed</td>
+<td class="description"><p class="name"><a href="#getDistricts()">getDistricts</a>(String divisionName)</p><p class="description">Get the District objects for the provided Division</p></td>
+</tr>
+<tr>
+<td class="type"> \BDAA\Division</td>
+<td class="description"><p class="name"><a href="#getDivision()">getDivision</a>(String divisionName)</p><p class="description">Get the division object</p></td>
+</tr>
+<tr>
+<td class="type"> Array</td>
+<td class="description"><p class="name"><a href="#getDivisionNames()">getDivisionNames</a>()</p><p class="description">Get all division names only</p></td>
+</tr>
+</table>
+
+<h3>Details</h3>
+<code class="signature" id="data">public  mixed <strong>$data</strong></code>
+<div class="details">
+</div>
+
+<code class="signature" id="__construct">public  void <strong>__construct</strong>()</code>
+<div class="details">
+<p>Preparing the \BDAA\Feed of division objects</p></div>
+
+<code class="signature" id="getAllDivisions">public  \BDAA\Feed <strong>getAllDivisions</strong>()</code>
+<div class="details">
+<p>Get all division objects in an \BDAA\Feed</p><table>
+<tr><th>Returns</th>
+<td>A Feed of \BDAA\Division objects</td>
+</tr></table>
+</div>
+
+<code class="signature" id="getDistrict">public  void <strong>getDistrict</strong>(mixed name)</code>
+<div class="details">
+</div>
+
+<code class="signature" id="getDistrictNames">public  Array <strong>getDistrictNames</strong>(string division, mixed divisionName)</code>
+<div class="details">
+<p>Get all Division names either for all the Divisions or a specific Division</p><table>
+<tr><th>Parameters</th>
+<td>division - specify Division name</td>
+</tr><tr><th>Returns</th>
+<td>An array of District names for the provided Division name</td>
+</tr></table>
+</div>
+
+<code class="signature" id="getDistricts">public  \BDAA\Feed <strong>getDistricts</strong>(String divisionName)</code>
+<div class="details">
+<p>Get the District objects for the provided Division</p><table>
+<tr><th>Parameters</th>
+<td>divisionName - The name of the administrative division</td>
+</tr><tr><th>Returns</th>
+<td>A Feed of \BDAA\District objects</td>
+</tr></table>
+</div>
+
+<code class="signature" id="getDivision">public  \BDAA\Division <strong>getDivision</strong>(String divisionName)</code>
+<div class="details">
+<p>Get the division object</p><table>
+<tr><th>Parameters</th>
+<td>divisionName - The name of the administrative division</td>
+</tr></table>
+</div>
+
+<code class="signature" id="getDivisionNames">public  Array <strong>getDivisionNames</strong>()</code>
+<div class="details">
+<p>Get all division names only</p><table>
+<tr><th>Returns</th>
+<td>An array of Division names only</td>
+</tr></table>
+</div>
+
+<p id="footer">This document was generated by <a href="http://peej.github.com/phpdoctor">PHPDoctor: The PHP Documentation Creator</a></p>
+
+</body>
+
+</html>
